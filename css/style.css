@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*LOGIN*/
+
+.login-form{
+    width:370px;
+    height: 372px;
+}
+
+.form-container{
+    width: 500px;
+    min-height: 450px;
+}
+
+.form-container-csv{
+    width: 500px;
+    height: 380px;
+    min-height: 350px;
+}
+
+.form-container-buscar,
+.form-container-modificar,
+.form-container-eliminar{
+    width:400px;
+    height:250px;
+}
+
+/*CATALOGO*/
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+/*INDEX*/
+
+.card-options{
+    transition: transform 0.5s;
+}
+
+.card-options:hover{
+    transform:scale(1.1);
+}
+
+
+/*MEDIA*/
+
+@media (max-width:722px){
+
+    /*LOGIN*/
+    .login-section {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .login-form {
+        width: 100%;
+    }
+
+    /* AGREGAR */
+    .form-container{
+        width: 90%; 
+        max-width: 500px;
+    }
+
+    .form-container-csv{
+        width: 90%; 
+        max-width: 500px;
+    }
+
+}
+
+
+
+
+
+
